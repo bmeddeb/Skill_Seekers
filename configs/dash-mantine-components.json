@@ -1,0 +1,166 @@
+{
+  "name": "dash-mantine-components",
+  "description": "Dash Mantine Components library for Python. Use for building modern, responsive Dash applications with 100+ customizable components, theming, dark mode support, and beautiful UI design.",
+  "base_url": "https://www.dash-mantine-components.com/",
+  "start_urls": [
+    "https://www.dash-mantine-components.com/",
+    "https://www.dash-mantine-components.com/getting-started",
+    "https://www.dash-mantine-components.com/layout-overview",
+    "https://www.dash-mantine-components.com/style-props",
+    "https://www.dash-mantine-components.com/styles-api",
+    "https://www.dash-mantine-components.com/responsive-styles",
+    "https://www.dash-mantine-components.com/css-variables",
+    "https://www.dash-mantine-components.com/components/grid",
+    "https://www.dash-mantine-components.com/components/container",
+    "https://www.dash-mantine-components.com/components/appshell",
+    "https://www.dash-mantine-components.com/components/button",
+    "https://www.dash-mantine-components.com/components/select",
+    "https://www.dash-mantine-components.com/components/notification",
+    "https://www.dash-mantine-components.com/components/modal",
+    "https://www.dash-mantine-components.com/components/tabs",
+    "https://www.dash-mantine-components.com/components/table",
+    "https://www.dash-mantine-components.com/components/datepicker",
+    "https://www.dash-mantine-components.com/components/figure-templates"
+  ],
+  "selectors": {
+    "main_content": "main",
+    "title": "h1",
+    "code_blocks": "pre code"
+  },
+  "url_patterns": {
+    "include": [
+      "/getting-started",
+      "/layout-overview",
+      "/style-props",
+      "/styles-api",
+      "/responsive-styles",
+      "/css-variables",
+      "/components/",
+      "/theming"
+    ],
+    "exclude": [
+      "/changelog",
+      "/release",
+      "/migration"
+    ]
+  },
+  "categories": {
+    "getting_started": [
+      "getting-started",
+      "installation",
+      "quickstart"
+    ],
+    "layout": [
+      "layout-overview",
+      "grid",
+      "container",
+      "simplegrid",
+      "stack",
+      "group",
+      "center",
+      "flex",
+      "appshell",
+      "box"
+    ],
+    "inputs": [
+      "textinput",
+      "textarea",
+      "select",
+      "multiselect",
+      "checkbox",
+      "radio",
+      "switch",
+      "slider",
+      "numberinput",
+      "datepicker",
+      "timeinput",
+      "colorpicker",
+      "tagsinput",
+      "pininput",
+      "filebutton"
+    ],
+    "buttons": [
+      "button",
+      "actionicon",
+      "closebutton",
+      "copybutton",
+      "filebutton"
+    ],
+    "navigation": [
+      "tabs",
+      "stepper",
+      "anchor",
+      "breadcrumbs",
+      "pagination",
+      "navlink",
+      "menu"
+    ],
+    "data_display": [
+      "table",
+      "card",
+      "accordion",
+      "timeline",
+      "list",
+      "badge",
+      "chip",
+      "avatar"
+    ],
+    "overlay": [
+      "modal",
+      "drawer",
+      "dialog",
+      "popover",
+      "tooltip",
+      "hovercard",
+      "menu"
+    ],
+    "feedback": [
+      "notification",
+      "alert",
+      "progress",
+      "loader",
+      "skeleton",
+      "ringprogress"
+    ],
+    "typography": [
+      "text",
+      "title",
+      "highlight",
+      "blockquote",
+      "code",
+      "mark"
+    ],
+    "styling": [
+      "style-props",
+      "styles-api",
+      "css-variables",
+      "responsive-styles",
+      "theming"
+    ],
+    "visualization": [
+      "figure-templates",
+      "plotly"
+    ],
+    "forms": [
+      "fieldset",
+      "inputwrapper",
+      "inputlabel",
+      "inputdescription",
+      "inputerror"
+    ],
+    "misc": [
+      "divider",
+      "paper",
+      "image",
+      "backgroundimage",
+      "aspectratio",
+      "spoiler",
+      "scrollarea",
+      "affix",
+      "transition",
+      "collapse"
+    ]
+  },
+  "rate_limit": 0.5,
+  "max_pages": 200
+}
