@@ -1,0 +1,133 @@
+{
+  "name": "dash",
+  "description": "Dash framework for Python. Use for building interactive data visualization web applications, dashboards, callbacks, plotly graphs, and Python data apps.",
+  "base_url": "https://dash.plotly.com/",
+  "start_urls": [
+    "https://dash.plotly.com/",
+    "https://dash.plotly.com/tutorial",
+    "https://dash.plotly.com/installation",
+    "https://dash.plotly.com/layout",
+    "https://dash.plotly.com/basic-callbacks",
+    "https://dash.plotly.com/interactive-graphing",
+    "https://dash.plotly.com/sharing-data-between-callbacks",
+    "https://dash.plotly.com/advanced-callbacks",
+    "https://dash.plotly.com/pattern-matching-callbacks",
+    "https://dash.plotly.com/clientside-callbacks",
+    "https://dash.plotly.com/background-callbacks",
+    "https://dash.plotly.com/dash-core-components",
+    "https://dash.plotly.com/dash-html-components",
+    "https://dash.plotly.com/datatable",
+    "https://dash.plotly.com/dash-ag-grid"
+  ],
+  "selectors": {
+    "main_content": "article",
+    "title": "h1",
+    "code_blocks": "pre code"
+  },
+  "url_patterns": {
+    "include": [
+      "/tutorial",
+      "/installation",
+      "/layout",
+      "/callbacks",
+      "/interactive-",
+      "/sharing-data",
+      "/advanced-",
+      "/pattern-matching",
+      "/clientside",
+      "/background-callbacks",
+      "/dash-core-components",
+      "/dash-html-components",
+      "/datatable",
+      "/dash-ag-grid",
+      "/state",
+      "/workspaces",
+      "/urls",
+      "/persistence",
+      "/loading-states",
+      "/graphs",
+      "/tabular-data",
+      "/controls",
+      "/live-updates",
+      "/faqs",
+      "/testing",
+      "/debugging",
+      "/devtools",
+      "/plugins",
+      "/external-resources",
+      "/authentication",
+      "/dash-bootstrap-components",
+      "/all-in-one-components"
+    ],
+    "exclude": [
+      "/enterprise",
+      "/dash-enterprise",
+      "/deployment",
+      "/production",
+      "/kubernetes",
+      "/pricing",
+      "/redis",
+      "/celery-advanced"
+    ]
+  },
+  "categories": {
+    "getting_started": [
+      "tutorial",
+      "installation",
+      "quickstart",
+      "intro"
+    ],
+    "fundamentals": [
+      "layout",
+      "basic-callbacks",
+      "interactive-graphing",
+      "sharing-data"
+    ],
+    "callbacks": [
+      "callback",
+      "advanced-callbacks",
+      "pattern-matching",
+      "clientside",
+      "background",
+      "state",
+      "prevent-update"
+    ],
+    "components": [
+      "dash-core-components",
+      "dash-html-components",
+      "datatable",
+      "dash-ag-grid",
+      "component",
+      "dcc",
+      "html"
+    ],
+    "visualization": [
+      "graph",
+      "plotly",
+      "figure",
+      "interactive-graphing",
+      "live-updates"
+    ],
+    "advanced": [
+      "persistence",
+      "urls",
+      "workspaces",
+      "plugins",
+      "external-resources",
+      "devtools"
+    ],
+    "third_party": [
+      "bootstrap",
+      "dash-bootstrap-components",
+      "mantine",
+      "all-in-one"
+    ],
+    "development": [
+      "testing",
+      "debugging",
+      "dev-tools"
+    ]
+  },
+  "rate_limit": 0.4,
+  "max_pages": 300
+}
