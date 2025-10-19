@@ -1,0 +1,133 @@
+{
+  "name": "mantine-ui",
+  "description": "Mantine UI templates and examples library for JavaScript and TypeScript. Use for finding pre-built, production-ready React component examples including headers, heroes, features, cards, forms, authentication pages, and more. 120+ free templates built with Mantine.",
+  "base_url": "https://ui.mantine.dev/",
+  "start_urls": [
+    "https://ui.mantine.dev/",
+    "https://ui.mantine.dev/category/headers/",
+    "https://ui.mantine.dev/category/hero/",
+    "https://ui.mantine.dev/category/features/",
+    "https://ui.mantine.dev/category/authentication/",
+    "https://ui.mantine.dev/category/app-cards/",
+    "https://ui.mantine.dev/category/article-cards/",
+    "https://ui.mantine.dev/category/user-cards/",
+    "https://ui.mantine.dev/category/stats/",
+    "https://ui.mantine.dev/category/navbars/",
+    "https://ui.mantine.dev/category/footers/",
+    "https://ui.mantine.dev/category/faq/",
+    "https://ui.mantine.dev/category/forms/"
+  ],
+  "selectors": {
+    "main_content": "main",
+    "title": "h1",
+    "code_blocks": "pre code"
+  },
+  "url_patterns": {
+    "include": [
+      "/category/",
+      "/component/"
+    ],
+    "exclude": [
+      "/changelog",
+      "/about"
+    ]
+  },
+  "categories": {
+    "page_sections": [
+      "headers",
+      "hero",
+      "features",
+      "footers",
+      "faq",
+      "pricing",
+      "testimonials",
+      "contact",
+      "cta",
+      "team"
+    ],
+    "navigation": [
+      "navbars",
+      "navbar-simple",
+      "navbar-nested",
+      "navbar-search",
+      "double-navbar"
+    ],
+    "cards": [
+      "app-cards",
+      "article-cards",
+      "user-cards",
+      "image-cards",
+      "stat-cards"
+    ],
+    "authentication": [
+      "authentication",
+      "login",
+      "register",
+      "forgot-password",
+      "verify-email"
+    ],
+    "forms": [
+      "forms",
+      "contact-form",
+      "newsletter",
+      "feedback",
+      "search"
+    ],
+    "tables": [
+      "tables",
+      "table-scroll",
+      "table-sort",
+      "table-selection",
+      "table-reviews"
+    ],
+    "stats": [
+      "stats",
+      "stats-group",
+      "stats-grid",
+      "stats-ring"
+    ],
+    "lists": [
+      "comments",
+      "messages",
+      "notifications",
+      "activity-feed"
+    ],
+    "media": [
+      "images",
+      "image-action",
+      "banner"
+    ],
+    "layouts": [
+      "app-shell",
+      "dashboard",
+      "grid-layouts"
+    ],
+    "navigation_ui": [
+      "breadcrumbs",
+      "pagination",
+      "tabs",
+      "stepper"
+    ],
+    "interactive": [
+      "buttons",
+      "button-groups",
+      "segmented-control",
+      "sliders"
+    ],
+    "feedback_ui": [
+      "alerts",
+      "notifications",
+      "modals",
+      "progress"
+    ],
+    "content": [
+      "toc",
+      "table-of-contents",
+      "badges",
+      "pills",
+      "avatars"
+    ]
+  },
+  "rate_limit": 0.4,
+  "max_pages": 200
+}

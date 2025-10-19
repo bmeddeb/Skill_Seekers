@@ -1,0 +1,282 @@
+{
+  "name": "mantine",
+  "description": "Mantine React components and hooks library for JavaScript and TypeScript. Use for building modern, accessible web applications with 120+ components, 70+ hooks, native dark theme support, and comprehensive theming system.",
+  "base_url": "https://mantine.dev/",
+  "start_urls": [
+    "https://mantine.dev/",
+    "https://mantine.dev/getting-started/",
+    "https://mantine.dev/theming/theme-object/",
+    "https://mantine.dev/theming/colors/",
+    "https://mantine.dev/theming/mantine-provider/",
+    "https://mantine.dev/styles/styles-api/",
+    "https://mantine.dev/styles/css-modules/",
+    "https://mantine.dev/styles/css-variables/",
+    "https://mantine.dev/core/button/",
+    "https://mantine.dev/core/text-input/",
+    "https://mantine.dev/core/select/",
+    "https://mantine.dev/core/modal/",
+    "https://mantine.dev/hooks/use-state/",
+    "https://mantine.dev/hooks/use-form/",
+    "https://mantine.dev/form/use-form/",
+    "https://mantine.dev/dates/getting-started/",
+    "https://mantine.dev/x/notifications/",
+    "https://mantine.dev/guides/next/"
+  ],
+  "selectors": {
+    "main_content": "main",
+    "title": "h1",
+    "code_blocks": "pre code"
+  },
+  "url_patterns": {
+    "include": [
+      "/getting-started/",
+      "/theming/",
+      "/styles/",
+      "/core/",
+      "/hooks/",
+      "/form/",
+      "/dates/",
+      "/charts/",
+      "/notifications/",
+      "/spotlight/",
+      "/modals/",
+      "/dropzone/",
+      "/carousel/",
+      "/nprogress/",
+      "/code-highlight/",
+      "/tiptap/",
+      "/x/",
+      "/guides/",
+      "/about/",
+      "/contribute/"
+    ],
+    "exclude": [
+      "/changelog",
+      "/releases/",
+      "/v1/",
+      "/v2/",
+      "/v3/",
+      "/v4/",
+      "/v5/",
+      "/v6/",
+      "/pages/"
+    ]
+  },
+  "categories": {
+    "getting_started": [
+      "getting-started",
+      "installation",
+      "usage",
+      "templates"
+    ],
+    "theming": [
+      "theme-object",
+      "colors",
+      "mantine-provider",
+      "default-props",
+      "color-scheme",
+      "color-functions",
+      "css-variables-resolver"
+    ],
+    "styling": [
+      "styles-api",
+      "css-modules",
+      "css-variables",
+      "postcss-preset",
+      "responsive",
+      "dark-theme",
+      "global-styles"
+    ],
+    "inputs": [
+      "text-input",
+      "textarea",
+      "number-input",
+      "select",
+      "multi-select",
+      "checkbox",
+      "radio",
+      "switch",
+      "slider",
+      "color-input",
+      "date-picker",
+      "time-input",
+      "file-input",
+      "json-input",
+      "password-input",
+      "pin-input"
+    ],
+    "buttons": [
+      "button",
+      "action-icon",
+      "close-button",
+      "copy-button",
+      "file-button",
+      "unstyle-button"
+    ],
+    "navigation": [
+      "anchor",
+      "breadcrumbs",
+      "burger",
+      "nav-link",
+      "pagination",
+      "stepper",
+      "tabs"
+    ],
+    "data_display": [
+      "accordion",
+      "avatar",
+      "badge",
+      "card",
+      "image",
+      "indicator",
+      "kbd",
+      "list",
+      "table",
+      "timeline",
+      "tree"
+    ],
+    "overlay": [
+      "modal",
+      "drawer",
+      "dialog",
+      "popover",
+      "menu",
+      "tooltip",
+      "hover-card",
+      "floating"
+    ],
+    "feedback": [
+      "alert",
+      "loader",
+      "notification",
+      "progress",
+      "ring-progress",
+      "skeleton"
+    ],
+    "layout": [
+      "app-shell",
+      "aspect-ratio",
+      "center",
+      "container",
+      "flex",
+      "grid",
+      "group",
+      "simple-grid",
+      "space",
+      "stack"
+    ],
+    "typography": [
+      "text",
+      "title",
+      "highlight",
+      "mark",
+      "code",
+      "blockquote"
+    ],
+    "miscellaneous": [
+      "affix",
+      "anchor",
+      "background-image",
+      "divider",
+      "paper",
+      "scroll-area",
+      "transition",
+      "collapse",
+      "spoiler"
+    ],
+    "combobox": [
+      "combobox",
+      "autocomplete",
+      "tags-input",
+      "multi-select",
+      "select"
+    ],
+    "hooks_state": [
+      "use-state",
+      "use-toggle",
+      "use-counter",
+      "use-local-storage",
+      "use-session-storage",
+      "use-list-state",
+      "use-disclosure",
+      "use-previous"
+    ],
+    "hooks_ui": [
+      "use-click-outside",
+      "use-focus-trap",
+      "use-hotkeys",
+      "use-idle",
+      "use-intersection",
+      "use-media-query",
+      "use-resize-observer",
+      "use-scroll-into-view",
+      "use-viewport-size",
+      "use-window-scroll"
+    ],
+    "hooks_lifecycle": [
+      "use-debounced-value",
+      "use-throttled-value",
+      "use-timeout",
+      "use-interval",
+      "use-document-title",
+      "use-force-update",
+      "use-mounted"
+    ],
+    "hooks_utilities": [
+      "use-clipboard",
+      "use-color-scheme",
+      "use-eye-dropper",
+      "use-favicon",
+      "use-hash",
+      "use-network",
+      "use-os",
+      "use-page-leave"
+    ],
+    "form": [
+      "use-form",
+      "values",
+      "errors",
+      "validation",
+      "transform-values",
+      "async-validation",
+      "nested",
+      "lists"
+    ],
+    "dates": [
+      "getting-started",
+      "date-picker",
+      "date-time-picker",
+      "date-picker-input",
+      "month-picker",
+      "year-picker",
+      "calendar",
+      "dates-provider"
+    ],
+    "extensions": [
+      "notifications",
+      "modals",
+      "spotlight",
+      "nprogress",
+      "carousel",
+      "dropzone",
+      "code-highlight",
+      "charts",
+      "tiptap"
+    ],
+    "guides": [
+      "next",
+      "vite",
+      "remix",
+      "gatsby",
+      "redwood",
+      "ssr",
+      "typescript",
+      "jest",
+      "rtl",
+      "custom-components",
+      "polymorphic"
+    ]
+  },
+  "rate_limit": 0.3,
+  "max_pages": 500
+}
